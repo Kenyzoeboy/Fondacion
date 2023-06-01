@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fundacion Mis Perris</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="MisPerris.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </head>
+
+    <body onload>
+        <div class="backgbarra">
+            <div class="container">
+                <span class="barra_nav">
+                    <button class="btn btn-outline-secondary" style="background-color: black; margin-right :20rem ">
+                        <a href="MisPerris.html"><img src="logo.png" alt="Logo de mis Perris"></a>
+                    </button>
+                    <a href="MisPerris.html" class="bar">Inicio</a>
+                    <a href="Sobrenosotros.html" class="bar">Sobre Nosotros</a>
+                    <a href="Servicios.html" class="bar">Servicios</a>
+                    <a href="#redes" class="bar">Contactanos</a> </button>
+                </span>
+                
+            
+            </div>
+        </div>
+<br><br>
+    <div class="formulario">
+        <h1>Formulario para adoptar</h1>
+        <hr>
+        <form action="MisPerris.html" name="fomulario_adop" method="post" onsubmit="validateForm()">
+            <label for="nombre">Nombre</label>
+            <input class="form-control" type="text" required name="nombre" placeholder="Nombre Completo" 
+            aria-label="default input example">
+            <label for="nombre">RUN</label>
+            <input class="form-control" type="text" required id="nombre" placeholder="run" aria-label="default input example">
+            <label for="nombre">Correo Electronico</label>
+            <input class="form-control" type="email" required id="nombre" placeholder="Correo" aria-label="default input example">
+            <label for="nombre">Telefono de contacto</label>
+            <input class="form-control" type="tel"  id="nombre" placeholder="telefono" aria-label="default input example">
+            <label for="nombre">Fecha de nacimiento</label>
+            <input class="form-control" type="date" required id="nombre" placeholder="fecha" aria-label="default input example">
+            <br>
+            <label for="region">Region</label>
+            <select class="form-select" aria-label="Default select example" required>
+                <option selected>Seleccionar una region</option>
+                <option value="Region Metropolitana">Region Metropolitana</option>
+                <option value="Region del Maule">Region del Maule</option>
+                <option value="Region de Arica y Parinacota">Regio de Arica y Parinacota</option>
+                <option value="Region de Tarapaca">Region de Tarapaca</option>
+                <option value="Region de Antofagasta">Region de Antofagasta</option>
+                <option value="Region de Coquimbo">Region de Coquimbo</option>
+                <option value="Region de Valparaiso">Region Valparaiso</option>
+                <option value="Region de Ñuble">Region de Ñuble</option>
+                <option value="Region del Biobio">Region del Biobio</option>
+                <option value="Region de la Araucania">Region de la Araucania</option>
+                <option value="Region de los Rios">Region de los Rios</option>
+                <option value="Region de los Lagos">Region de los Lagos</option>
+              </select>
+              <br>
+              
+
+        </form>
+        <button type="submit" class="btn btn-outline-primary" form="fomulario_adop" style="width: 50rem;">Enviar</button>
+    </div>
+    <script src="MisPerris.js"></script>
+    </body>
+</html>
